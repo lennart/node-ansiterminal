@@ -2,7 +2,7 @@ var glob = require('glob');
 var fs = require('fs');
 var AnsiParser = require('node-ansiparser');
 var AnsiTerminal = require('../dist/ansiterminal.js').AnsiTerminal;
-var pty = require('pty.js');
+var pty = require('node-pty');
 var sleep = require('sleep');
 
 var CONSOLE_LOG = console.log;
